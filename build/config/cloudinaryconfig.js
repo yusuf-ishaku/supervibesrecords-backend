@@ -13,7 +13,7 @@ var cloudinaryConfig = exports.cloudinaryConfig = function cloudinaryConfig(req,
   _cloudinary.v2.config({
     cloud_name: 'dv5v8l2lr',
     api_key: '777541867955751',
-    api_secret: '***************************'
+    api_secret: 'qRDV0bXVnLn1mESFmWo5hBxldtA'
   });
   next();
 };

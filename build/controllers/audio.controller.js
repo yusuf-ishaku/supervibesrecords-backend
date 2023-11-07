@@ -102,37 +102,31 @@ var newAudio = exports.newAudio = /*#__PURE__*/function () {
     return _regenerator["default"].wrap(function _callee3$(_context3) {
       while (1) switch (_context3.prev = _context3.next) {
         case 0:
-          _context3.prev = 0;
-          if (!req.files) {
-            _context3.next = 8;
-            break;
+          console.log(req);
+          try {
+            if (req.files) {
+              imageUrl = req.files['image'][0].path;
+              audioUrl = req.files['audio'][0].path;
+              data = {
+                imageUrl: imageUrl,
+                audioUrl: audioUrl,
+                title: req.body.title,
+                artiste: req.body.artiste
+              };
+              res.status(_httpStatusCodes["default"].CREATED).json({
+                code: _httpStatusCodes["default"].CREATED,
+                data: data,
+                message: 'User created successfully'
+              });
+            }
+          } catch (error) {
+            next(error);
           }
-          imageUrl = req.files['image'][0].path;
-          audioUrl = req.files['audio'][0].path;
-          _context3.next = 6;
-          return UserService.newUser({
-            imageUrl: imageUrl,
-            audioUrl: audioUrl
-          });
-        case 6:
-          data = _context3.sent;
-          res.status(_httpStatusCodes["default"].CREATED).json({
-            code: _httpStatusCodes["default"].CREATED,
-            data: data,
-            message: 'User created successfully'
-          });
-        case 8:
-          _context3.next = 13;
-          break;
-        case 10:
-          _context3.prev = 10;
-          _context3.t0 = _context3["catch"](0);
-          next(_context3.t0);
-        case 13:
+        case 2:
         case "end":
           return _context3.stop();
       }
-    }, _callee3, null, [[0, 10]]);
+    }, _callee3);
   }));
   return function newAudio(_x7, _x8, _x9) {
     return _ref3.apply(this, arguments);

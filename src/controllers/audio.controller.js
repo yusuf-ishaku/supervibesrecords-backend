@@ -46,7 +46,7 @@ export const getUser = async (req, res, next) => {
  * @param {Function} next
  */
 export const newAudio = async (req, res, next) => {
-  console.log(req);
+  console.log(req.body);
   try {
     if (req.files) {
       const imageUrl = req.files['image'][0].path;
@@ -54,13 +54,15 @@ export const newAudio = async (req, res, next) => {
       const data = {
         imageUrl,
         audioUrl,
-        title: req.body.title,
-        artiste: req.body.artiste
+        artiste: req.body.artiste,
+        title: req.body.title
       };
+      UserService.newAudio(data);
+      console.log(data);
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
         data: data,
-        message: 'User created successfully'
+        message: 'New sound added successfully'
       });
     }
   } catch (error) {

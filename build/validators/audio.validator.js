@@ -8,10 +8,11 @@ exports.newAudioValidator = void 0;
 var _joi = _interopRequireDefault(require("@hapi/joi"));
 var newAudioValidator = exports.newAudioValidator = function newAudioValidator(req, res, next) {
   var schema = _joi["default"].object({
-    name: _joi["default"].string().min(4).required(),
+    artiste: _joi["default"].string().min(4).required(),
     imageUrl: _joi["default"].string().required(),
     audioUrl: _joi["default"].string().required()
   });
+  console.log(req.body);
   var _schema$validate = schema.validate(req.body),
     error = _schema$validate.error,
     value = _schema$validate.value;

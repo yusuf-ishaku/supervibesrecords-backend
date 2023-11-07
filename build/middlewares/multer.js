@@ -20,7 +20,7 @@ var storage = new _multerStorageCloudinary.CloudinaryStorage({
         while (1) switch (_context.prev = _context.next) {
           case 0:
             return _context.abrupt("return", {
-              folder: 'nono',
+              folder: 'samples',
               resource_type: 'auto',
               allowedFormats: ['jpeg', 'png', 'img', 'mp3', 'jpg'],
               path: file.path

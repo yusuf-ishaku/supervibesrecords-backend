@@ -21,8 +21,8 @@ function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; 
 _dotenv["default"].config();
 var app = (0, _express["default"])();
 app.use('*', _cloudinaryconfig.cloudinaryConfig);
-var host = process.env.APP_HOST;
-var port = process.env.APP_PORT;
+// const host = process.env.APP_HOST;
+var port = process.env.PORT;
 var api_version = process.env.API_VERSION;
 app.use((0, _cors["default"])());
 app.use((0, _helmet["default"])());
@@ -39,6 +39,6 @@ app.use(_error.appErrorHandler);
 app.use(_error.genericErrorHandler);
 app.use(_error.notFound);
 app.listen(port, function () {
-  _logger["default"].info("Server started at ".concat(host, ":").concat(port, "/api/").concat(api_version, "/"));
+  _logger["default"].info("Server started at ".concat(port));
 });
 var _default = exports["default"] = app;

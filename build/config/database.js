@@ -20,8 +20,6 @@ var database = /*#__PURE__*/function () {
           DATABASE = process.env.NODE_ENV === 'test' ? process.env.DATABASE_TEST : process.env.DATABASE;
           _context.next = 4;
           return _mongoose["default"].connect(DATABASE, {
-            useFindAndModify: false,
-            useCreateIndex: true,
             useNewUrlParser: true,
             useUnifiedTopology: true
           });

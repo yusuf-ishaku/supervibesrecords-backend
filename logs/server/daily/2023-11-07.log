@@ -1,0 +1,185 @@
+info: Server started at 3000 {"timestamp":"2023-11-07T18:52:31.801Z"}
+error: Could not connect to the database. bad auth : authentication failed {"code":8000,"codeName":"AtlasError","name":"MongoError","ok":0,"stack":"MongoError: bad auth : authentication failed\n    at MessageStream.messageHandler (C:\\Users\\Administrator\\Documents\\my works\\software development works\\supervibesrecordsfolder\\svr-backend\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\connection.js:299:20)\n    at MessageStream.emit (node:events:514:28)\n    at processIncomingData (C:\\Users\\Administrator\\Documents\\my works\\software development works\\supervibesrecordsfolder\\svr-backend\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n    at MessageStream._write (C:\\Users\\Administrator\\Documents\\my works\\software development works\\supervibesrecordsfolder\\svr-backend\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at Writable.write (node:internal/streams/writable:337:10)\n    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n    at TLSSocket.emit (node:events:514:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Readable.push (node:internal/streams/readable:234:10)\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)","timestamp":"2023-11-07T18:52:37.581Z"}
+info: Server started at 3000 {"timestamp":"2023-11-07T18:53:00.379Z"}
+error: Could not connect to the database. bad auth : authentication failed {"code":8000,"codeName":"AtlasError","name":"MongoError","ok":0,"stack":"MongoError: bad auth : authentication failed\n    at MessageStream.messageHandler (C:\\Users\\Administrator\\Documents\\my works\\software development works\\supervibesrecordsfolder\\svr-backend\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\connection.js:299:20)\n    at MessageStream.emit (node:events:514:28)\n    at processIncomingData (C:\\Users\\Administrator\\Documents\\my works\\software development works\\supervibesrecordsfolder\\svr-backend\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n    at MessageStream._write (C:\\Users\\Administrator\\Documents\\my works\\software development works\\supervibesrecordsfolder\\svr-backend\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at Writable.write (node:internal/streams/writable:337:10)\n    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n    at TLSSocket.emit (node:events:514:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Readable.push (node:internal/streams/readable:234:10)\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)","timestamp":"2023-11-07T18:53:02.947Z"}
+info: Server started at 3000 {"timestamp":"2023-11-07T18:56:00.082Z"}
+error: Could not connect to the database. bad auth : authentication failed {"code":8000,"codeName":"AtlasError","name":"MongoError","ok":0,"stack":"MongoError: bad auth : authentication failed\n    at MessageStream.messageHandler (C:\\Users\\Administrator\\Documents\\my works\\software development works\\supervibesrecordsfolder\\svr-backend\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\connection.js:299:20)\n    at MessageStream.emit (node:events:514:28)\n    at processIncomingData (C:\\Users\\Administrator\\Documents\\my works\\software development works\\supervibesrecordsfolder\\svr-backend\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:144:12)\n    at MessageStream._write (C:\\Users\\Administrator\\Documents\\my works\\software development works\\supervibesrecordsfolder\\svr-backend\\node_modules\\mongoose\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:42:5)\n    at writeOrBuffer (node:internal/streams/writable:392:12)\n    at _write (node:internal/streams/writable:333:10)\n    at Writable.write (node:internal/streams/writable:337:10)\n    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n    at TLSSocket.emit (node:events:514:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Readable.push (node:internal/streams/readable:234:10)\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)","timestamp":"2023-11-07T18:56:02.685Z"}
+info: Server started at 3000 {"timestamp":"2023-11-07T18:56:34.427Z"}
+info: Connected to the database. {"timestamp":"2023-11-07T18:56:36.806Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '0')
+    at _callee3$ (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\build\controllers\audio.controller.js:108:44)
+    at tryCatch (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newAudio (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\build\controllers\audio.controller.js:132:18)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28) 
+    url - /api/v1/audio 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-11-07T18:59:21.010Z"}
+info: Server started at 3000 {"timestamp":"2023-11-07T19:00:28.661Z"}
+info: Connected to the database. {"timestamp":"2023-11-07T19:00:31.248Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '0')
+    at _callee3$ (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\src\controllers\/audio.controller.js:52:42)
+    at tryCatch (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at newAudio (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\src\controllers\/audio.controller.js:48:22)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at Multipart.emit (node:domain:489:12)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) 
+    url - /api/v1/audio 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-11-07T19:00:38.685Z"}
+info: Server started at 3000 {"timestamp":"2023-11-07T19:01:33.553Z"}
+info: Connected to the database. {"timestamp":"2023-11-07T19:01:36.127Z"}
+info: Server started at 3000 {"timestamp":"2023-11-07T19:01:55.356Z"}
+info: Connected to the database. {"timestamp":"2023-11-07T19:01:57.740Z"}
+info: Server started at 3000 {"timestamp":"2023-11-07T19:02:18.653Z"}
+info: Connected to the database. {"timestamp":"2023-11-07T19:02:21.012Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '0')
+    at _callee3$ (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\src\controllers\/audio.controller.js:52:42)
+    at tryCatch (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at newAudio (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\src\controllers\/audio.controller.js:48:22)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at Multipart.emit (node:domain:489:12)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) 
+    url - /api/v1/audio 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-11-07T19:02:29.690Z"}
+info: Server started at 3000 {"timestamp":"2023-11-07T19:02:56.555Z"}
+info: Connected to the database. {"timestamp":"2023-11-07T19:02:59.139Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '0')
+    at _callee3$ (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\src\controllers\/audio.controller.js:53:42)
+    at tryCatch (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at newAudio (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\src\controllers\/audio.controller.js:48:22)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at Multipart.emit (node:domain:489:12)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) 
+    url - /api/v1/audio 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-11-07T19:03:11.562Z"}
+info: Server started at 3000 {"timestamp":"2023-11-07T19:03:30.964Z"}
+info: Connected to the database. {"timestamp":"2023-11-07T19:03:33.294Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '0')
+    at _callee3$ (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\src\controllers\/audio.controller.js:53:42)
+    at tryCatch (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at newAudio (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\src\controllers\/audio.controller.js:48:22)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (node:events:514:28)
+    at Multipart.emit (node:domain:489:12)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) 
+    url - /api/v1/audio 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-11-07T19:03:33.419Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\response.js:278:15)
+    at _callee3$ (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\src\controllers\/audio.controller.js:60:38)
+    at tryCatch (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at newAudio (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\src\controllers\/audio.controller.js:48:22)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer\lib\make-middleware.js:155:11
+    at CloudinaryStorage.<anonymous> (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer-storage-cloudinary\lib\index.js:107:25)
+    at step (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer-storage-cloudinary\lib\index.js:33:23)
+    at Object.next (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer-storage-cloudinary\lib\index.js:14:53)
+    at fulfilled (C:\Users\Administrator\Documents\my works\software development works\supervibesrecordsfolder\svr-backend\node_modules\multer-storage-cloudinary\lib\index.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/audio 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-11-07T19:04:05.209Z"}
+info: Server started at 3000 {"timestamp":"2023-11-07T19:04:45.200Z"}
+info: Connected to the database. {"timestamp":"2023-11-07T19:04:48.016Z"}
+info: Server started at 3000 {"timestamp":"2023-11-07T19:05:24.556Z"}
+info: Connected to the database. {"timestamp":"2023-11-07T19:05:27.969Z"}
+info: Server started at 3000 {"timestamp":"2023-11-07T19:05:58.610Z"}
+info: Connected to the database. {"timestamp":"2023-11-07T19:06:02.434Z"}

@@ -46,7 +46,6 @@ export const getUser = async (req, res, next) => {
  * @param {Function} next
  */
 export const newAudio = async (req, res, next) => {
-  console.log(req.body);
   try {
     if (req.files) {
       const imageUrl = req.files['image'][0].path;

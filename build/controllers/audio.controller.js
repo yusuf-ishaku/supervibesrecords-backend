@@ -98,30 +98,32 @@ var getUser = exports.getUser = /*#__PURE__*/function () {
  */
 var newAudio = exports.newAudio = /*#__PURE__*/function () {
   var _ref3 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee3(req, res, next) {
-    var imageUrl, audioUrl, data;
     return _regenerator["default"].wrap(function _callee3$(_context3) {
       while (1) switch (_context3.prev = _context3.next) {
         case 0:
-          console.log(req);
-          try {
-            if (req.files) {
-              imageUrl = req.files['image'][0].path;
-              audioUrl = req.files['audio'][0].path;
-              data = {
-                imageUrl: imageUrl,
-                audioUrl: audioUrl,
-                title: req.body.title,
-                artiste: req.body.artiste
-              };
-              res.status(_httpStatusCodes["default"].CREATED).json({
-                code: _httpStatusCodes["default"].CREATED,
-                data: data,
-                message: 'User created successfully'
-              });
-            }
-          } catch (error) {
-            next(error);
-          }
+          console.log(req.body);
+          res.json(req.body);
+          // try {
+          //   if (req.files) {
+          //     const imageUrl = req.files['image'][0].path;
+          //     const audioUrl = req.files['audio'][0].path;
+          //     const data = {
+          //       imageUrl,
+          //       audioUrl,
+          //       artiste: req.body.artiste,
+          //       title: req.body.title
+          //     };
+          //     UserService.newAudio(data);
+          //     console.log(data);
+          //     res.status(HttpStatus.CREATED).json({
+          //       code: HttpStatus.CREATED,
+          //       data: data,
+          //       message: 'New sound added successfully'
+          //     });
+          //   }
+          // } catch (error) {
+          //   next(error);
+          // }
         case 2:
         case "end":
           return _context3.stop();

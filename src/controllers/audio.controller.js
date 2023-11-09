@@ -9,7 +9,7 @@ import * as UserService from '../services/user.service';
  */
 export const getAllAudio = async (req, res, next) => {
   try {
-    const data = await UserService.getAllUsers();
+    const data = await UserService.getAllAudios();
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,

@@ -8,7 +8,7 @@ import upload from '../middlewares/multer';
 const router = express.Router();
 
 // //route to get all users
-// router.get('', audioController.getAllUsers);
+router.get('', audioController.getAllAudio);
 
 //route to create a new user
 router.post('', upload.fields([

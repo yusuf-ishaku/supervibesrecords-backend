@@ -13,7 +13,7 @@ export const getAllAudio = async (req, res, next) => {
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
-      message: 'All users fetched successfully'
+      message: 'All audios fetched successfully'
     });
   } catch (error) {
     next(error);

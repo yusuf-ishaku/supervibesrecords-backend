@@ -1,7 +1,7 @@
 import express from 'express';
 const router = express.Router();
 
-import audioRoute from './uploads.route';
+import audioRoute from './audios.route';
 /**
  * Function contains Application routes
  *

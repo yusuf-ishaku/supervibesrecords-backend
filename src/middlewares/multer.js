@@ -12,9 +12,9 @@ const storage = new CloudinaryStorage({
             allowedFormats: ['jpeg', 'png', 'img', 'mp3', 'jpg'],
             transformation: [
                 {
-                    width: 1080, 
+                    width: 1080,
                     height: 1080,
-                    crop: "fill"
+                    crop: 'fill'
                 }
             ],
             path: file.path

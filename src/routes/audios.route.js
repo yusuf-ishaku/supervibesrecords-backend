@@ -13,7 +13,7 @@ router.get('', audioController.getAllAudio);
 //route to create a new user
 router.post('', upload.fields([
     {name: 'audio', maxCount: 1},
-    {name: 'image', maxCount: 1}
+    {name: 'image', maxCount: 1, }
 ]), audioController.newAudio);
 
 //route to get a single user by their user id

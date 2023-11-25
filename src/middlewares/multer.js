@@ -10,6 +10,11 @@ const storage = new CloudinaryStorage({
             folder: 'samples',
             resource_type: 'auto',
             allowedFormats: ['jpeg', 'png', 'img', 'mp3', 'jpg'],
+            transformation: [
+                {
+                    width: 1080, height: 1080
+                }
+            ],
             path: file.path
         }
     },

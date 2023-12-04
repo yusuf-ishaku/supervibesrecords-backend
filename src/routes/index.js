@@ -2,6 +2,7 @@ import express from 'express';
 const router = express.Router();
 
 import audioRoute from './audios.route';
+import userRoute from './user.route';
 /**
  * Function contains Application routes
  *
@@ -12,7 +13,7 @@ const routes = () => {
     res.json('Welcome');
   });
   router.use('/audio', audioRoute);
-
+  router.use('/auth', userRoute);
   return router;
 };
 

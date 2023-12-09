@@ -19,9 +19,16 @@ export const userAuth = async (req, res, next) => {
       };
     bearerToken = bearerToken.split(' ')[1];
 
-    const { user } = await jwt.verify(bearerToken, 'your-secret-key');
-    res.locals.user = user;
-    res.locals.token = bearerToken;
+    const { user } = await jwt.verify(
+      bearerToken,
+      process.env.ADMIN_JWT_SECRET
+    );
+    if (!user) {
+      throw {
+        code: HttpStatus.BAD_REQUEST,
+        message: 'Authorization token is wrongs'
+      };
+    }
     next();
   } catch (error) {
     next(error);

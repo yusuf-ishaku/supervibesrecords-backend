@@ -1,0 +1,38 @@
+info: ::1 - - [09/Dec/2023:20:56:05 +0000] "POST /api/v1/auth/login HTTP/1.1" 400 90 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:01:05 +0000] "POST /api/v1/auth/login HTTP/1.1" 400 90 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:01:20 +0000] "POST /api/v1/auth/login HTTP/1.1" 400 90 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:02:08 +0000] "POST /api/v1/auth/login HTTP/1.1" 400 90 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:02:13 +0000] "POST /api/v1/auth/login HTTP/1.1" 400 90 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:03:17 +0000] "POST /api/v1/auth/login HTTP/1.1" 400 90 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:03:54 +0000] "POST /api/v1/auth/login HTTP/1.1" 400 90 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:04:19 +0000] "POST /api/v1/auth/login HTTP/1.1" 400 90 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:05:17 +0000] "POST /api/v1/auth/login HTTP/1.1" 400 90 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:06:33 +0000] "POST /api/v1/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [09/Dec/2023:21:06:43 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 187 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [09/Dec/2023:21:07:19 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 311 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:09:40 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 311 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:11:29 +0000] "POST /api/v1/auth/login HTTP/1.1" - - "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:15:00 +0000] "POST /api/v1/auth/login HTTP/1.1" 400 68 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:17:22 +0000] "POST /api/v1/auth/login HTTP/1.1" 400 68 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:17:47 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 311 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:20:25 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 311 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [09/Dec/2023:21:21:54 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 311 "http://localhost:5173/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+

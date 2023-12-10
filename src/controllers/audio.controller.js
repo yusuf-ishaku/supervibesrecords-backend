@@ -1,5 +1,6 @@
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
+import * as AudioService from '../services/audio.service';
 
 /**
  * Controller to get all users available
@@ -9,7 +10,7 @@ import * as UserService from '../services/user.service';
  */
 export const getAllAudio = async (req, res, next) => {
   try {
-    const data = await UserService.getAllAudios();
+    const data = await AudioService.getAllAudios();
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,

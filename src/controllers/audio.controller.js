@@ -27,9 +27,9 @@ export const getAllAudio = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const getUser = async (req, res, next) => {
+export const getAudio = async (req, res, next) => {
   try {
-    const data = await UserService.getUser(req.params._id);
+    const data = await AudioService.getAudio(req.params._id);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,

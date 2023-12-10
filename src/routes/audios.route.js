@@ -16,8 +16,8 @@ router.post('', upload.fields([
     {name: 'image', maxCount: 1, }
 ]), audioController.newAudio);
 
-//route to get a single user by their user id
-// router.get('/:_id', userAuth, userController.getUser);
+// route to get a single user by their user id
+router.get('/:_id', audioController.getAudio);
 
 // //route to update a single user by their user id
 // router.put('/:_id', userController.updateUser);
